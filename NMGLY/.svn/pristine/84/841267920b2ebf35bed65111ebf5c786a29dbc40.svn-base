@@ -1,0 +1,36 @@
+package com.cont.nmgly.activity;
+
+import android.view.View;
+import android.widget.RadioButton;
+
+import com.cont.nmgly.R;
+
+public class MainActivity extends BaseActivity {
+	private RadioButton rb_sdmarket, rb_forestryinfo, rb_release, rb_mine;
+
+	@Override
+	Object initView() {
+		return R.layout.activity_main;
+	}
+
+	@Override
+	void initfindviewByid() {
+		rb_sdmarket = (RadioButton) findViewById(R.id.rb_sdmarket);
+		rb_forestryinfo = (RadioButton) findViewById(R.id.rb_forestryinfo);
+		rb_release = (RadioButton) findViewById(R.id.rb_release);
+		rb_mine = (RadioButton) findViewById(R.id.rb_mine);
+	}
+
+	@Override
+	void setOnclic() {
+		rb_sdmarket.setOnClickListener(this);
+		rb_forestryinfo.setOnClickListener(this);
+		rb_release.setOnClickListener(this);
+		rb_mine.setOnClickListener(this);
+	}
+
+	@Override
+	public void onClick(View v) {
+	}
+
+}

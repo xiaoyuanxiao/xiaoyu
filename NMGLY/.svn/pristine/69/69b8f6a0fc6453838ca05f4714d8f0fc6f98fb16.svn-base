@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_main"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_sdmarket"
+            style="@style/rb_main"
+            android:text="供求" />
+
+        <RadioButton
+            android:id="@+id/rb_forestryinfo"
+            style="@style/rb_main"
+            android:text="林业" />
+
+        <RadioButton
+            android:id="@+id/rb_release"
+            style="@style/rb_main"
+            android:text="发布" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/rb_main"
+            android:text="个人" />
+    </RadioGroup>
+
+</RelativeLayout>

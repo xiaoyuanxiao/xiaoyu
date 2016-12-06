@@ -1,0 +1,5 @@
+package com.cont.nmgly.activity.viewinterface;
+
+public interface MainVinterfase {
+	
+}
